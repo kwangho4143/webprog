@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex.html</title>
+</head>
+<body>
+    <h1 >개인정보입력</h1>
+    <form >
+        <p>아이디: <input type="text" size = 20> <input type="submit" value="ID중복검사"> </p>
+        <p>생년월일: <input type="date" name = "birth" size = 20 placeholder="연도 - 월 - 일"></p>
+        <p>성별: 
+            <input type="radio" name = "gender" value = "남자">남자
+            <input type="radio" name = "gender" value = "여자">여자</p>
+        <p>이메일: <input type="text" name = "mail" size = 20></p>
+        <p>메일수신: 
+            <input type="radio" name = "accept" value = "수신동의">수신동의
+            <input type="radio" name = "accept" value = "수신거절">수신거절
+        </p>
+        <p>핸드폰: <select name="num">
+                        <option value="070">070</option>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                     </select>
+                    <input type="text" name = "middle">
+                    <input type="text" name = "final"> </p>
+        <p>직업: <select name="job">
+            <option value="학생">학생</option>
+            <option value="군인">군인</option>
+            <option value="백수">백수</option>
+         </select></p>
+        <p>취미: <input type="checkbox" name = "hobby" value ="플밍">플밍
+            <input type="checkbox" name = "hobby" value ="쇼핑">쇼핑
+            <input type="checkbox" name = "hobby" value ="여행">여행</p>
+        <p>자기소개 <textarea name="introduce" cols="50" rows="5"></textarea></p>
+       
+        <input type="submit" value="등록">
+        <input type="reset" value="초기화">
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
